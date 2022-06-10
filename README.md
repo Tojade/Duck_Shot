@@ -10,8 +10,5 @@ Importing the pygame module is required for python IDLE that was used. To import
 ## Installing the game 
 To install the game on your idle simply download all the content (images, main file) and open them up using the preferred development environment.
 
-## Installing the game 
-To install the game on your idle simply download all the content (images, main file) and open them up using the preferred development environment.
-
 ![alt text](https://github.com/Tojade/Duck_Shot/blob/main/Duck_Shoot.png)
 
