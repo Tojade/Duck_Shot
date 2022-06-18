@@ -1,7 +1,20 @@
+"""
+    Program......: Shot.py
+    Author.......: Jaiden
+    Date.........: 8/06/22
+    Description..: Own Version of duck shot
+"""
+
 # Import modules
 import pygame ,sys, random
 
-# Create a class called Cross with all the attributes
+
+
+# CLASS ====================================
+# Name.........: Crosshair
+# Description..: Creates/Sets mouse to the crosshair
+# Syntax.......: Crosshair()
+# ==========================================
 class Crosshair(pygame.sprite.Sprite):
     def __init__(self,pic_path):
         super().__init__() # Calls class to use the attributes (multiple inheritance)
@@ -13,8 +26,15 @@ class Crosshair(pygame.sprite.Sprite):
     def shoot(self):
         self.gunshot.play()
         pygame.sprite.spritecollide(crosshair, target_group, True) # Checks two sprites overlap by removing it
-     
-# Create a class for targets
+
+
+
+
+# CLASS ====================================
+# Name.........: Target
+# Description..: Sets target in different locations
+# Syntax.......: Target()
+# ==========================================
 class Target(pygame.sprite.Sprite):
     def __init__(self,pic_path,x,y):
         super().__init__()
